@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ryn Hong Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+<style>/* page styles live in style.css */</style>
+</head>
+<body>
+
+<div class="page">
+  <header class="nav" id="nav"></header>
+  <div class="hero" id="top"><h1 id="hello"></h1></div>
+</div>
+
+<div class="ticker" aria-hidden="true"><div class="ticker-track" id="ticker"></div></div>
+
+<main class="page">
+  <section id="work">
+    <div class="sec-head"><h2>[Selected Work]</h2><span class="br">Projects</span></div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section id="about">
+    <div class="sec-head"><h2>[Profile]</h2></div>
+    <div class="about">
+      <p class="lead" id="about-lead"></p>
+      <div class="txt" id="about-txt"></div>
+    </div>
+  </section>
+
+  <section id="cv">
+    <div class="sec-head"><h2>[CV]</h2></div>
+    <div id="cv-list"></div>
+  </section>
+
+  <footer id="contact"></footer>
+</main>
+
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

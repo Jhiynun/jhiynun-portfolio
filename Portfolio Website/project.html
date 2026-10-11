@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Project · Ryn Hong</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+  <header class="nav" id="nav"></header>
+  <main id="project"></main>
+  <footer id="contact"></footer>
+</div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Work detail" hidden>
+  <div class="bar">
+    <button type="button" id="lb-close">Close</button>
+    <span class="mono" id="lb-count"></span>
+    <div class="nv"><button type="button" id="lb-prev">Prev</button><button type="button" id="lb-next">Next</button></div>
+  </div>
+  <figure><img id="lb-img" alt=""></figure>
+  <div class="info">
+    <h4 id="lb-title"></h4>
+    <div class="mono" id="lb-meta"></div>
+    <p id="lb-desc"></p>
+  </div>
+</div>
+
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
